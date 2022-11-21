@@ -38,7 +38,7 @@ setup(
 
     install_requires=[dependencies, "ta-lib==0.4.19"],
 
-    dependency_links=["https://github.com/mrjbq7/ta-lib#egg=TA-lib-0.4.19"],
+    dependency_links=["git+ssh://git@github.com/mrjbq7/ta-lib.git@TA_lib-0.4.19#egg=TA-lib-0.4.19"],
 
     # Here are the keywords of my library.
     keywords='ANS Technologies, trademl, classes',
