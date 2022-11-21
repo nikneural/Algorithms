@@ -9,9 +9,6 @@ with open(file) as f:
     dependencies = list(map(lambda x: x.replace("\n", ""), f.readlines()))
 
 
-with open("README.md", 'r') as f:
-    long_description = f.read()
-
 setup(
     # Define the library name, this is what is used along with `pip install`.
     name='trademl',
